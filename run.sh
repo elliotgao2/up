@@ -24,8 +24,11 @@ antigen bundle command-not-found
 antigen bundle zsh-users/zsh-completions
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle mafredri/zsh-async
-antigen theme bhilburn/powerlevel9k powerlevel9k
+antigen theme bhilburn/powerlevel9k
 antigen apply
 
-alias vim=nvim" > ~/.zshrc
+alias vim=nvim
+
+export LANG=zh_CN.UTF-8
+export LC_ALL=zh_CN.UTF-8" > ~/.zshrc
 source ~/.zshrc
